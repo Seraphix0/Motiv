@@ -1,1 +1,1 @@
-Motiv
+Motiv distributed system for telecommunication.
