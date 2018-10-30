@@ -1,25 +1,41 @@
 package com.motiv.motivclientmodels;
 
-import com.sun.xml.internal.fastinfoset.util.StringArray;
+import javax.persistence.*;
 
+@Entity
+@Table
 public class Contact {
 
-    public Contact(int id, int number, int extension, StringArray name, Status status, boolean motivSupport) {
+    /*
+    public Contact(int id, int number, int extension, String name, Status status, boolean motivSupport) {
         this.id = id;
         this.number = number;
         this.extension = extension;
         this.name = name;
         this.status = status;
         this.motivSupport = motivSupport;
-    }
+    } */
 
+    @Id
+    @GeneratedValue
     private int id;
+
+    @Column
     private int number; // DID number
+
+    @Column
     private int extension; // Local extension number
-    private StringArray name;
+
+    @Column(nullable = false)
+    private String name;
+
+    @Enumerated
     private Status status;
+
+    @Column
     private boolean motivSupport; // Support for integrated functionality provided by Motiv.
 
+    @Entity
     private enum Status {
         Available,
         Away,
@@ -52,11 +68,11 @@ public class Contact {
         this.extension = extension;
     }
 
-    public StringArray getName() {
+    public String getName() {
         return name;
     }
 
-    public void setName(StringArray name) {
+    public void setName(String name) {
         this.name = name;
     }
 

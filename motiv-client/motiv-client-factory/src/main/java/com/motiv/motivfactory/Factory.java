@@ -1,7 +1,7 @@
 package com.motiv.motivfactory;
 
-import com.motiv.motivclientdal.ContactContext;
-import com.motiv.motivclientdal.UserContext;
+import com.motiv.motivclientdal.context.ContactContext;
+import com.motiv.motivclientdal.context.UserContext;
 import com.motiv.motivclientlogic.ContactLogic;
 import com.motiv.motivclientlogic.UserLogic;
 import com.motiv.motivclientrepository.ContactRepository;
