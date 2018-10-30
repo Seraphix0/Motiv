@@ -1,3 +1,9 @@
+package com.motiv.motivclientrepository;
+
+import com.motiv.motivclientinterfaces.IUserContext;
+import com.motiv.motivclientinterfaces.IUserRepository;
+import com.motiv.motivclientmodels.User;
+
 public class UserRepository implements IUserRepository {
     private static IUserContext userContext;
 

@@ -1,3 +1,9 @@
+package com.motiv.motivclientrepository;
+
+import com.motiv.motivclientinterfaces.IContactContext;
+import com.motiv.motivclientinterfaces.IContactRepository;
+import com.motiv.motivclientmodels.Contact;
+
 public class ContactRepository implements IContactRepository {
 
     private static IContactContext contactContext;

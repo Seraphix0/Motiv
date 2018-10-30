@@ -1,3 +1,5 @@
+package com.motiv.motivclientmodels;
+
 import com.sun.xml.internal.fastinfoset.util.StringArray;
 
 public class Contact {

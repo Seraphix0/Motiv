@@ -4,20 +4,22 @@
   <component name="MavenProjectsManager">
     <option name="originalFiles">
       <list>
-        <option value="$PROJECT_DIR$/../Motiv/pom.xml" />
-        <option value="$PROJECT_DIR$/../Motiv/motiv-client/pom.xml" />
-        <option value="$PROJECT_DIR$/../Motiv/motiv-client/motiv-client-dal/pom.xml" />
-        <option value="$PROJECT_DIR$/../Motiv/motiv-client/motiv-client-factory/pom.xml" />
-        <option value="$PROJECT_DIR$/../Motiv/motiv-client/motiv-client-interfaces/pom.xml" />
-        <option value="$PROJECT_DIR$/../Motiv/motiv-client/motiv-client-logic/pom.xml" />
-        <option value="$PROJECT_DIR$/../Motiv/motiv-client/motiv-client-models/pom.xml" />
-        <option value="$PROJECT_DIR$/../Motiv/motiv-client/motiv-client-repository/pom.xml" />
+        <option value="$PROJECT_DIR$/pom.xml" />
+        <option value="$PROJECT_DIR$/motiv-client/pom.xml" />
+        <option value="$PROJECT_DIR$/motiv-client/motiv-client-dal/pom.xml" />
+        <option value="$PROJECT_DIR$/motiv-client/motiv-client-factory/pom.xml" />
+        <option value="$PROJECT_DIR$/motiv-client/motiv-client-interfaces/pom.xml" />
+        <option value="$PROJECT_DIR$/motiv-client/motiv-client-logic/pom.xml" />
+        <option value="$PROJECT_DIR$/motiv-client/motiv-client-models/pom.xml" />
+        <option value="$PROJECT_DIR$/motiv-client/motiv-client-repository/pom.xml" />
       </list>
     </option>
     <option name="ignoredFiles">
       <set>
-        <option value="$PROJECT_DIR$/../Motiv/motiv-client-1/pom.xml" />
-        <option value="$PROJECT_DIR$/../Motiv/motiv-client/motiv-client-presentation/pom.xml" />
+        <option value="$PROJECT_DIR$/motiv-client-1/pom.xml" />
+        <option value="$PROJECT_DIR$/motiv-client/motiv-client-presentation/pom.xml" />
+        <option value="$PROJECT_DIR$/../Motiv/motiv-client/controllers/pom.xml" />
+        <option value="$PROJECT_DIR$/../Motiv/motiv-client/motiv-client-controllers/pom.xml" />
       </set>
     </option>
   </component>

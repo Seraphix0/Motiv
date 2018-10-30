@@ -6,7 +6,11 @@
 	<groupId>com.motiv</groupId>
 	<artifactId>motiv-client</artifactId>
 	<version>0.0.1-SNAPSHOT</version>
-	<packaging>jar</packaging>
+	<modules>
+		<module>controllers</module>
+		<module>motiv-client-controllers</module>
+	</modules>
+	<packaging>pom</packaging>
 
 	<name>motiv-client</name>
 	<description>Client application for Motiv distributed system.</description>
@@ -99,7 +103,19 @@
 			<artifactId>js-cookie</artifactId>
 			<version>2.1.0</version>
 		</dependency>
-	</dependencies>
+		<dependency>
+			<groupId>motiv</groupId>
+			<artifactId>motiv-client-interfaces</artifactId>
+			<version>1.0-SNAPSHOT</version>
+			<scope>compile</scope>
+		</dependency>
+        <dependency>
+            <groupId>motiv</groupId>
+            <artifactId>motiv-client-factory</artifactId>
+            <version>1.0-SNAPSHOT</version>
+            <scope>compile</scope>
+        </dependency>
+    </dependencies>
 
 	<build>
 		<plugins>

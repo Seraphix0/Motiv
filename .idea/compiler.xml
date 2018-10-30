@@ -6,7 +6,6 @@
         <sourceOutputDir name="target/generated-sources/annotations" />
         <sourceTestOutputDir name="target/generated-test-sources/test-annotations" />
         <outputRelativeToContentRoot value="true" />
-        <module name="motiv-client" />
         <module name="motiv-client-dal" />
         <module name="motiv-client-factory" />
         <module name="motiv-client-interfaces" />
@@ -16,6 +15,8 @@
       </profile>
     </annotationProcessing>
     <bytecodeTargetLevel>
+      <module name="controllers" target="1.8" />
+      <module name="motiv-client-controllers" target="1.8" />
       <module name="motiv-client-presentation" target="1.8" />
     </bytecodeTargetLevel>
   </component>

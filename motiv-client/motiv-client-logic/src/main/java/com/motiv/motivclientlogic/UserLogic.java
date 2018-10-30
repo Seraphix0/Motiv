@@ -1,3 +1,8 @@
+package com.motiv.motivclientlogic;
+
+import com.motiv.motivclientinterfaces.IUserRepository;
+import com.motiv.motivclientmodels.User;
+
 public class UserLogic {
 
     private static IUserRepository userRepository;
@@ -6,15 +11,15 @@ public class UserLogic {
         this.userRepository = userRepository;
     }
 
-    void addUser(Contact contact) {
+    void addUser(User user) {
 
     }
 
-    Contact getUser(int id) {
+    User getUser(int id) {
         return null;
     }
 
-    void modifyUser(Contact contact) {
+    void modifyUser(User user) {
 
     }
 

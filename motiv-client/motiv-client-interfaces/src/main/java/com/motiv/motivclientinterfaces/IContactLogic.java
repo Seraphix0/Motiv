@@ -1,3 +1,7 @@
+package com.motiv.motivclientinterfaces;
+
+import com.motiv.motivclientmodels.Contact;
+
 public interface IContactLogic {
     void addContact(Contact contact);
     Contact getContact(int id);

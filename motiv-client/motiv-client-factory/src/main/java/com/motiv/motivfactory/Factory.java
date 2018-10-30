@@ -1,3 +1,12 @@
+package com.motiv.motivfactory;
+
+import com.motiv.motivclientdal.ContactContext;
+import com.motiv.motivclientdal.UserContext;
+import com.motiv.motivclientlogic.ContactLogic;
+import com.motiv.motivclientlogic.UserLogic;
+import com.motiv.motivclientrepository.ContactRepository;
+import com.motiv.motivclientrepository.UserRepository;
+
 public class Factory {
     private static Factory instance = new Factory();
 

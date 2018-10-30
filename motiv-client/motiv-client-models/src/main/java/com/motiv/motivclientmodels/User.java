@@ -1,4 +1,4 @@
-import com.sun.xml.internal.fastinfoset.util.StringArray;
+package com.motiv.motivclientmodels;
 
 public class User {
 
